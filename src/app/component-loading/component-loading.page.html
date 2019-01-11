@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Loading</ion-title> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-button expand="block" (click)="exibeLoadingPadrao()">Loading padrão</ion-button>
+    <ion-button expand="block" (click)="exibeLoadingTranslucent()">Loading translucent</ion-button>
+    <ion-button expand="block" (click)="exibeLoadingCustomizadoSpinner('lines')">Lines</ion-button>
+    <ion-button expand="block" (click)="exibeLoadingCustomizadoSpinner('lines-small')">Lines Small</ion-button>
+    <ion-button expand="block" (click)="exibeLoadingCustomizadoSpinner('dots')">Dots</ion-button>
+    <ion-button expand="block" (click)="exibeLoadingCustomizadoSpinner('bubbles')">Bubbles</ion-button>
+    <ion-button expand="block" (click)="exibeLoadingCustomizadoSpinner('circles')">Circles</ion-button>
+    <ion-button expand="block" (click)="exibeLoadingCustomizadoSpinner('crescent')">Crescent</ion-button>
+    <ion-button expand="block" (click)="showLoadingConsumindoApi()">Simulando consumo de api</ion-button>
+
+</ion-content>

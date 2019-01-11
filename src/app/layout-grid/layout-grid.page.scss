@@ -1,0 +1,12 @@
+//cor do grid
+ion-grid{
+    //alternativa de coreção do bog das 12 colunas
+    --ion-grid-columns: 13;
+    ion-row{
+        ion-col{
+            background-color: deepskyblue;
+            color: white;
+            margin: 1px;
+        }
+    }
+}
