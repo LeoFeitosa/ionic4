@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Toggle</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Laranja</ion-label>
+      <ion-toggle color="warning"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Pera</ion-label>
+      <ion-toggle color="success"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Morango</ion-label>
+      <ion-toggle color="danger"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Maçã | checked</ion-label>
+      <ion-toggle color="dark" checked></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Maçã | checked + disabled</ion-label>
+      <ion-toggle color="tertiary" disabled checked></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Maçã | Marcado via variável</ion-label>
+      <ion-toggle [(ngModel)]="marcado" color="primary"></ion-toggle>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

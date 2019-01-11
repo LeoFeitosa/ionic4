@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Toast</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-button expand="clock" (click)="showToast()">Enviar toast padrão</ion-button>
+  <ion-button expand="clock" (click)="showToast('top')">Enviar toast top</ion-button>
+  <ion-button expand="clock" (click)="showToast('middle')">Enviar toast middle</ion-button>
+  <ion-button expand="clock" (click)="showToast('bottom')">Enviar toast bottom</ion-button>
+  <ion-button expand="clock" (click)="showToastButton()">Enviar toast botão</ion-button>
+  <ion-button expand="clock" (click)="showToastButtonText()">Enviar toast botão texto</ion-button>
+  <ion-button expand="clock" (click)="showToastButtonTextLong()">Enviar toast botão texto longo</ion-button>
+  <ion-button expand="clock" (click)="showToastButtonTextLongTranslucent()">Enviar toast botão texto longo</ion-button>
+
+</ion-content>
