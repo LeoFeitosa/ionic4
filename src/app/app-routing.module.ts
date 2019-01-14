@@ -40,7 +40,8 @@ const routes: Routes = [
   { path: 'component-popover', loadChildren: './component-popover/component-popover.module#ComponentPopoverPageModule' },
   { path: 'component-refresher', loadChildren: './component-refresher/component-refresher.module#ComponentRefresherPageModule' },
   { path: 'component-searchbar', loadChildren: './component-searchbar/component-searchbar.module#ComponentSearchbarPageModule' },
-  { path: 'component-toggle', loadChildren: './component-toggle/component-toggle.module#ComponentTogglePageModule' }
+  { path: 'component-toggle', loadChildren: './component-toggle/component-toggle.module#ComponentTogglePageModule' },
+  { path: 'api-externa', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' }
 
 
 
