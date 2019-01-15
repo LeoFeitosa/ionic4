@@ -10,12 +10,13 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 })
 export class AppComponent {
   public appPages = [
-    {title: 'Home',         url: '/home',         icon: 'home'},
-    {title: 'Instalação',   url: '/instalacao',   icon: 'settings'},
-    {title: 'Layout',       url: '/layout',       icon: 'camera'},
-    {title: 'Componentes',  url: '/componentes',  icon: 'arrow-dropright'},
-    {title: 'Api Externa',  url: '/api-externa',  icon: 'globe'},
-    {title: 'Animações',    url: '/animacoes',    icon: 'sad'}
+    {title: 'Home',                 url: '/home',                 icon: 'home'},
+    {title: 'Instalação',           url: '/instalacao',           icon: 'settings'},
+    {title: 'Layout',               url: '/layout',               icon: 'camera'},
+    {title: 'Componentes',          url: '/componentes',          icon: 'arrow-dropright'},
+    {title: 'Api Externa',          url: '/api-externa',          icon: 'globe'},
+    {title: 'Animações',            url: '/animacoes',            icon: 'sad'},
+    {title: 'Componentes Nativos',  url: '/componentes-nativos',  icon: 'sad'}
   ];
 
   constructor(

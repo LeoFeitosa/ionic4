@@ -42,7 +42,9 @@ const routes: Routes = [
   { path: 'component-searchbar', loadChildren: './component-searchbar/component-searchbar.module#ComponentSearchbarPageModule' },
   { path: 'component-toggle', loadChildren: './component-toggle/component-toggle.module#ComponentTogglePageModule' },
   { path: 'api-externa', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' },
-  { path: 'animacoes', loadChildren: './animacoes/animacoes.module#AnimacoesPageModule' }
+  { path: 'animacoes', loadChildren: './animacoes/animacoes.module#AnimacoesPageModule' },
+  { path: 'componentes-nativos', loadChildren: './componentes-nativos/componentes-nativos.module#ComponentesNativosPageModule' },
+  { path: 'component-nativo-camera', loadChildren: './component-nativo-camera/component-nativo-camera.module#ComponentNativoCameraPageModule' }
 
 
 
